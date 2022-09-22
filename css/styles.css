@@ -289,6 +289,13 @@ img {
     height: 600px;
 }
 
+@media(max-width:768px ){
+    .project img {
+        height: 450px;
+    }
+    
+}
+
 .project .overlay {
     background:linear-gradient(to bottom,hsla(206, 69%, 12%, 0.0), hsla(207, 70%, 12%, 0.826) ) ;
     position: absolute;
