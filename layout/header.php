@@ -102,7 +102,18 @@
                         <li <?php if (stripos($_SERVER['REQUEST_URI'],'/pages/faq.php') !== false) {echo 'class="active"';} ?> >
                             <a class="nav-link text-uppercase" href="/pages/faq.php">Preguntas Frecuentes</a>
                         </li>
+
+
+                        <li  >
+                            <a class="nav-link text-uppercase" href="/pages/buscador.php">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+
                         
+                        
+
+
                         
                         
                         

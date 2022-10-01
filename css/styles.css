@@ -677,3 +677,58 @@ footer  .social-links i {
     width: 80%;
 
 }
+
+
+/* BUSCADOR */
+
+#contenedor-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-buscar{
+    margin-top: 20px;
+    width: 50vw;
+    padding: 10px;
+    outline: none;
+    border: 5px solid #092032;
+    font-weight: 600;
+}
+
+#listaArticulos {
+    font-size: 20px;
+    margin-top: 20px;
+    list-style: none;
+    font-weight: 600;
+    color: var(--color-azul);
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+@media(max-width:500px ){
+    #listaArticulos {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+
+.fa-folder {
+    margin-right: 5px;
+}
+
+.articulo {
+    display: block;
+    border:2px solid var(--color-azul);
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+.filtro {
+    display: none;
+}
+
