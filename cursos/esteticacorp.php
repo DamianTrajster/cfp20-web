@@ -1,3 +1,5 @@
+<?php  $title ="CURSOS"  ?>
+
 <?php include "../layout/header.php";?>
 
 
@@ -41,9 +43,7 @@
                             
                         </ul>
 
-               
-
-                        <a  class="btn btn-brand"  href="/data/Corporal/Estética Corporal/ESTETICA CORPORAL - CFP 20.docx"></i> Descargar Programa</a>
+                         <a  class="btn btn-brand"  href="/data/Corporal/Estética Corporal/ESTETICA CORPORAL - CFP 20.docx" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>

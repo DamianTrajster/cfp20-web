@@ -1,3 +1,5 @@
+<?php  $title ="CURSOS"  ?>
+
 <?php include "../layout/header.php";?>
 
 

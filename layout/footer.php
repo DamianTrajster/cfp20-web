@@ -1,4 +1,6 @@
    <!-- FOOTER -->
+
+   
    <footer>
             <div class="footer-top">
                 <div class="container d-flex flex-column flex-md-row align-items-md-center ">
@@ -44,21 +46,21 @@
                         
 
                             <div class="col-lg-12  ">
-                                <form  id="form" class="row p-lg-5 gy-3 needs-validation"  novalidate >
+                                <form action="<?php include __DIR__ . "../phpmailer.php" ?>" id="formulario" class="row p-lg-5 gy-3 needs-validation"  novalidate >
                                     <div class="col-12">
                                         <h2>Dejanos tu mensaje en el siguiente formulario</h2>
                                     </div>
         
                                     <div class="col-lg-6">
                                        <label for="validationCustom01" class="form-label">Nombre</label>
-                                       <input type="text"  class="form-control" id="validationCustom01" placeholder="Nombre"  name="name" required >
+                                       <input type="text"  class="form-control" id="validationCustom01" placeholder="Nombre"  name="nombre" required >
                                        <div class="invalid-feedback">
                                         Este campo es Obligatorio
                                       </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-                                        <input type="text"  class="form-control" id="exampleFormControlInput1" placeholder="Apellido" name="last" required >
+                                        <input type="text"  class="form-control" id="exampleFormControlInput1" placeholder="Apellido" name="apellido" required >
                                         <div class="invalid-feedback">
                                         Este campo es Obligatorio
                                       </div>
@@ -74,21 +76,19 @@
                                      </div>
                                      <div class="col-12">
                                         <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                                        <textarea name="mensaje" class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
                                         <div class="invalid-feedback">
                                             Este campo es Obligatorio
                                       </div>
                                      </div>
                                      <div class="col-12">
-                                    <input type="submit" class="btn btn-brand" id="button" value="Enviar mensaje" >         <button type="button" class="btn btn-secondary" id="button2"  data-bs-dismiss="modal">Close</button>
+                                    <input type="submit" name="submit" class="btn btn-brand" id="button" value="Enviar mensaje" >      
+                                   <button type="button"  class="btn btn-secondary" id="button2"  data-bs-dismiss="modal">Close</button>
                                      </div>
                                 </form>
-                                <script type="text/javascript"
-                                    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+                             
 
-                                <script type="text/javascript">
-                                    emailjs.init('kSYVe_aINgl44XhbC')
-                                </script>
+                               
                             </div>
                         </div>
                 </div>
@@ -113,7 +113,7 @@
 
 
 <!-- SCRIPT MODAL -->
-    <script>
+    <!-- <script>
         const btn = document.getElementById('button');
        const reset = document.getElementById('exampleModal')
 
@@ -165,7 +165,7 @@
 
 
        
-    </script>
+    </script> -->
 
 
     <script>
@@ -192,9 +192,9 @@
 
 
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
     <script src="/js/app.js"></script>
 
 

@@ -1,21 +1,23 @@
+<?php  $title ="CURSOS"  ?>
+
 <?php include "../layout/header.php";?>
 
 
  <!-- Cursos y trayectos -->
  <section class="curso-p curso container">
-        <h2>Orientación YOGA</h2>
+        <h2>YOGA</h2>
 
 
         <div class="curso-flex">
 
                     <a href="#"  type="button" class="box" Data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                        <p>Orientación YOGA I</p>
+                        <p>YOGA I</p>
                     </a>
                     <a href="#" type="button" class="box" Data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                      <p class="soporte">Orientación YOGA II</p>
+                      <p class="soporte">YOGA II</p>
                     </a>
                     <a href="#" type="button" class="box" Data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                      <p class="soporte">Orientación YOGA III</p>
+                      <p class="soporte">YOGA III</p>
                     </a>
 
 
@@ -30,7 +32,7 @@
             <div class="modal-dialog modal-dialog-centered modal-lg  ">
                 <div class="modal-content  ">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">ORIENTACIÓN EN YOGA (CPC I)</h5>
+                    <h5 class="modal-title" id="exampleModalLabel"> YOGA (CPC I)</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-5">
@@ -54,7 +56,7 @@
             <div class="modal-dialog modal-dialog-centered modal-lg  ">
                 <div class="modal-content  ">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">ORIENTACIÓN EN YOGA (CPC II)</h5>
+                    <h5 class="modal-title" id="exampleModalLabel"> YOGA (CPC II)</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-5">
@@ -79,7 +81,7 @@
             <div class="modal-dialog modal-dialog-centered modal-lg  ">
                 <div class="modal-content  ">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">ORIENTACIÓN EN YOGA (CPC III)</h5>
+                    <h5 class="modal-title" id="exampleModalLabel"> YOGA (CPC III)</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-5">

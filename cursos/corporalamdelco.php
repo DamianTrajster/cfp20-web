@@ -1,3 +1,5 @@
+<?php  $title ="CURSOS"  ?>
+
 <?php include "../layout/header.php" ;  ?>  
 
 
@@ -17,6 +19,12 @@
                         <i class='bx bxs-caret-down-circle'></i>
                          <p class="soporte">Reflexologia</p>
                     </a>
+
+                    <a href="/cursos/masajesCorporalesElementos.php" class="box">
+                        <i class='bx bxs-caret-down-circle'></i>
+                         <p class="soporte">Masajes corporales con elementos</p>
+                    </a>
+
 
                  
 

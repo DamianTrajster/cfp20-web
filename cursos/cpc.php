@@ -1,3 +1,5 @@
+<?php  $title ="CURSOS"  ?>
+
 <?php include "../layout/header.php";?>
 
 
@@ -9,11 +11,11 @@
         <div class="curso-flex">
 
                     <a href="/cursos/yoga.php"  type="button" class="box" >
-                        <p>Orientación YOGA</p>
+                        <p>YOGA</p>
                     </a>
 
                     <a href="/cursos/bioenergetica.php"  type="button" class="box" >
-                        <p>Orientación Bioenergética</p>
+                        <p> Bioenergética</p>
                     </a>
 
                   

@@ -1,24 +1,26 @@
+<?php  $title ="CURSOS"  ?>
+
 <?php include "../layout/header.php";?>
 
 
  <!-- Cursos y trayectos -->
  <section class="curso-p curso container">
-        <h2>Orientación Bioenergética</h2>
+        <h2>Bioenergética</h2>
 
 
         <div class="curso-flex">
 
                     <a href="#"  type="button" class="box" Data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                        <p>Orientación Bioenergética I</p>
+                        <p>Bioenergética I</p>
                     </a>
                     <a href="#" type="button" class="box" Data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                      <p class="soporte">Orientación Bioenergética II</p>
+                      <p class="soporte">Bioenergética II</p>
                     </a>
                     <a href="#" type="button" class="box" Data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                      <p class="soporte">Orientación Bioenergética III</p>
+                      <p class="soporte">Bioenergética III</p>
                     </a>
                     <a href="#" type="button" class="box" Data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                      <p class="soporte">Orientación Bioenergética IV</p>
+                      <p class="soporte"> Bioenergética IV</p>
                     </a>
 
                    
@@ -36,7 +38,7 @@
             <div class="modal-dialog modal-dialog-centered modal-lg  ">
                 <div class="modal-content  ">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">ORIENTACIÓN EN BIOENERGÉTICA (CPC I)</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">BIOENERGÉTICA</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-5">

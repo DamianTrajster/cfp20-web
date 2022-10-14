@@ -14,7 +14,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="/css/styles.css" as="style">
     <link rel="stylesheet" href="/css/styles.css">
     
     <!-- ICONOS -->
@@ -75,9 +75,30 @@
                             <a <?php if(stripos($_SERVER['REQUEST_URI'],'/index.php') !== false){echo 'class="active nav-link text-uppercase"';}else{echo 'class="nav-link text-uppercase"';}
                              ?> href="/index.php">inicio</a>
                         </li>
-                        <li <?php if (stripos($_SERVER['REQUEST_URI'],'/pages/institucional.php') !== false) {echo 'class="active"';} ?>>
-                            <a class="nav-link text-uppercase"  href="/pages/institucional.php">Institucional</a>
+                      
+                    
+                        <li class="nav-item dropdown">
+                  
+
+                        <a <?php if(stripos($_SERVER['REQUEST_URI'],'/pages/galeria.php') !== false || stripos($_SERVER['REQUEST_URI'],'/pages/nuestrahistoria.php') !== false || stripos($_SERVER['REQUEST_URI'],'/pages/nuestrostaff.php') !== false ){echo 'class="active nav-link text-uppercase dropdown-toggle"';}else{echo 'class="nav-link text-uppercase dropdown-toggle"';} ?> href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                            Institucional
+                            </a>
+                        
+                        <ul class="dropdown-menu">
+                            <li  ><a class="dropdown-item text-uppercase" href="/pages/nuestrahistoria.php">Nuestra Historia</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li ><a class="dropdown-item text-uppercase" href="/pages/nuestrostaff.php">Nuestro Staff</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li ><a class="dropdown-item text-uppercase" href="/pages/galeria.php">Galeria Imagenes</a></li>
+                        </ul>
                         </li>
+
+
+
+
+
+
+
                         <li <?php if (stripos($_SERVER['REQUEST_URI'],'/pages/inscripciones.php') !== false) {echo 'class="active"';} ?>>
                             <a class="nav-link text-uppercase" href="/pages/inscripciones.php">Inscripciones</a>
                         </li>
@@ -88,7 +109,7 @@
                             Cursos
                         </a> -->
 
-                        <a <?php if(stripos($_SERVER['REQUEST_URI'],'/cursos/amdelco.php') !== false || stripos($_SERVER['REQUEST_URI'],'/cursos/cfp20.php') !== false ){echo 'class="active nav-link text-uppercase"';}else{echo 'class="nav-link text-uppercase"';} ?> href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a <?php if(stripos($_SERVER['REQUEST_URI'],'/cursos/amdelco.php') !== false || stripos($_SERVER['REQUEST_URI'],'/cursos/cfp20.php') !== false ){echo 'class="active nav-link text-uppercase dropdown-toggle"';}else{echo 'class="nav-link text-uppercase dropdown-toggle"';} ?> href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
                             Cursos
                             </a>
                         
@@ -98,13 +119,14 @@
                             <li ><a class="dropdown-item text-uppercase" href="/cursos/cfp20.php">C.F.P Nº20</a></li>
                         </ul>
                         </li>
-                    
+
+                      
                         <li <?php if (stripos($_SERVER['REQUEST_URI'],'/pages/faq.php') !== false) {echo 'class="active"';} ?> >
                             <a class="nav-link text-uppercase" href="/pages/faq.php">Preguntas Frecuentes</a>
                         </li>
 
 
-                        <li  >
+                        <li <?php if (stripos($_SERVER['REQUEST_URI'],'/pages/buscador.php') !== false) {echo 'class="active"';} ?> >
                             <a class="nav-link text-uppercase" href="/pages/buscador.php">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </a>

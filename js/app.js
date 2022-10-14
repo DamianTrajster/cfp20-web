@@ -1,21 +1,71 @@
-/* BUSCADOR */
+//eMail
+const formulario = document.querySelector('#formulario');
+const reset = document.getElementById('exampleModal')
 
-/* ORDENAR */
-function ordenarLista(listaArticulos){
-    //Obtenemos el elemento ul
-    let ul = document.getElementById(listaArticulos);    
-    //Obtenemos la lista de li
-    let lista = ul.getElementsByTagName("li");
-    //Creamos el array a partir de los elementos li
-    //A continuación ordenamos con sort (hay que ordenar mirando el textContent y evitando la etiqueta li
-    //Por último recorremos el array ya ordenado y vamos haciendo el append en el elemento ul (sobrescribiéndolo)
-    let arrayCanciones = Array.from(lista);
-    arrayCanciones.sort((a, b) => a.textContent.localeCompare(b.textContent))
-    .forEach(li => ul.appendChild(li));
-   
+formulario.addEventListener('submit', function(e){
+    e.preventDefault();
+
+    email();
+})
+
+function email(e) {
+    if (!formulario.checkValidity()) {
+        
+       
+  
+    }else {
+        const datos = new FormData(formulario);
+    
+    fetch('/phpmailer.php', {
+        method:'POST',
+        body: datos
+    })
+    .then(res => res.json())
+    .then(res => {
+        console.log(res)
+
+
+      
+       
+        if('exito'){
+           Swal.fire({
+                icon: 'success',
+                title: 'Exito',
+                text: 'Mensaje enviado',
+                
+           }) 
+           $('#exampleModal').modal('hide')
+           document.getElementById("formulario").reset();
+            setTimeout(() => {
+                window.location.href = '/index.php';
+            }, 3000);
+          
+        }else {
+            e.preventDefault();
+            e.stopPropagation();
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops',
+                text: 'Error al enviar el msj ',
+                footer: 'intenta nuevamente'
+              
+           }) 
+        }
+    
+    })
+    }
+
+
+    
 }
 
-  ordenarLista("listaArticulos");
+
+
+
+
+
+
+
 
 
 /* BUSQUEDA */
@@ -102,6 +152,7 @@ $(document).ready(function () {
 
    
 });
+
 
 
 

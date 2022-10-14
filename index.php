@@ -105,8 +105,8 @@
                 </div>
                 <div class="project">
                     <picture>
-                        <source loading="lazy"  srcset="img/slider/webp/mk 1.webp" type="image/webp">   
-                        <img src="img/slider/mk 1.jpeg" alt="Marketing Digital"  loading="lazy">
+                        <source loading="lazy"  srcset="img/slider/webp/mk1.webp" type="image/webp">   
+                        <img src="img/slider/mk1.jpeg" alt="Marketing Digital"  loading="lazy">
                     </picture>
                     <div class="overlay"></div>
                     <div class="content">
