@@ -59,8 +59,8 @@
                                       </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-                                        <input type="text"  class="form-control" id="exampleFormControlInput1" placeholder="Apellido" name="apellido" required >
+                                        <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                                        <input type="text"  class="form-control" id="exampleFormControlInput1" placeholder="Asunto" name="apellido" required >
                                         <div class="invalid-feedback">
                                         Este campo es Obligatorio
                                       </div>

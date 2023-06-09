@@ -853,3 +853,105 @@ footer  .social-links i {
     color: rgb(73, 7, 153);
 }
  */
+
+
+
+
+
+ @media(min-width: 900px){
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+     }
+    
+ }
+
+
+ /* INSCRIPCIONES */
+
+
+
+
+ .ins-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 2rem;
+ }
+
+
+
+ .ins-container .ins-box img {
+    width: 95%;
+    transition: 300ms;
+   
+ }
+
+
+ .ins-container .ins-box img:hover {
+        transform: scale(1.7);
+        cursor: pointer;
+ }
+
+ .ins-box .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+ }
+
+ .ins-container .ins-box p {
+    text-align: center;
+    font-size: 2rem;
+ }
+
+.talleres {
+    width: 100%;
+    height: 50rem;
+}
+
+
+
+ @media(max-width:768px ){
+    .ins-container {
+         display: block;
+         
+      }
+
+      .ins-box {
+        margin-top: 2rem;
+      }
+
+      .ins-container .ins-box img:hover {
+        transform: scale(1.4);
+ }
+
+
+
+     
+ }
+
+
+ /* Inscripciones */
+
+ .gallery-item {
+    display: none;
+  }
+
+  .gallery-item.active {
+      display: inline-block;
+  }
+  .btn-group-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .btn-section {
+    margin-right: 10px;
+    padding: 15px;
+  }
+
+  .gallery img:hover {
+    cursor: pointer;
+  }

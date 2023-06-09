@@ -52,7 +52,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/Corporal/Masajes Armonizadores y Estéticos/MASAJES CORPORALES ARMONIZADORES Y ESTETICOS I - CFP 20.docx"></i> Descargar Programa</a>
+                        <a  class="btn btn-brand"  href="/data/cfp20/Corporal/MasajesArmonizadoresyEsteticos/Masajes I.pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/Corporal/Masajes Armonizadores y Estéticos/MASAJES CORPORALES ARMONIZADORES Y ESTETICOS II - CFP 20.docx"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Corporal/MasajesArmonizadoresyEsteticos/Masajes II.pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -98,7 +98,7 @@
 
        <!-- GALERIA IMAGEN -->
 
-       <div>
+  <!--      <div>
            <div class="ful-img" id="fulImgBox" onclick="closeImg()">
                 <img   src="" id="fulImg" alt="">
                 <span onclick="closeImg()">X</span>
@@ -139,7 +139,7 @@
 
 
        </div>
-
+ -->
 
 
 

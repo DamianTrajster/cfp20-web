@@ -38,7 +38,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/Corporal/Reflexología/REFLEXOLOGIA amdelco.docx"></i> Descargar Programa</a>
+                        <a  download class="btn btn-brand"  href="/data/AMdelCo/Corporal/Reflexologia/Reflexologia.pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
 
        <!-- GALERIA IMAGEN -->
 
-       <div>
+   <!--     <div>
            <div class="ful-img" id="fulImgBox" onclick="closeImg()">
                 <img   src="" id="fulImg" alt="">
                 <span onclick="closeImg()">X</span>
@@ -87,7 +87,7 @@
 
 
        </div>
-
+ -->
 
 
 

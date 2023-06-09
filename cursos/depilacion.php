@@ -43,7 +43,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/estetica/Depilación y Manicuría/Depilación y Manicuría - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download class="btn btn-brand"  href="/data/cfp20/Estetica/DepilacionyManicuria/Depilacion y manicuria.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
 
        <!-- GALERIA IMAGEN -->
 
-       <div>
+      <!--  <div>
            <div class="ful-img" id="fulImgBox" onclick="closeImg()">
                 <img   src="" id="fulImg" alt="">
                 <span onclick="closeImg()">X</span>
@@ -137,7 +137,7 @@
 
 
        </div>
-
+ -->
 
 
 

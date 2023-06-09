@@ -80,14 +80,14 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/estetica//Maquillador-a Profesional/1- Maquillaje Social - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download class="btn btn-brand"  href="/data/cfp20/Estetica/Maquillador-aProfesional/1- Maquillaje social - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
     </div>
 
 
-      <!-- Piles y Anexos Cutáneos modal -->
+      <!-- Piel y Anexos Cutáneos modal -->
       <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg  ">
                 <div class="modal-content  ">
@@ -108,7 +108,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/estetica/Maquillador-a Profesional/2- Piles y Anexos Cutáneos - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Estetica/Maquillador-aProfesional/2- Piel y anexos cutaneos - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -146,7 +146,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/estetica/Maquillador-a Profesional/3- Maquillaje Artistico - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Estetica/Maquillador-aProfesional/3- Maquillaje artistico - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -175,7 +175,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/estetica/Maquillador-a Profesional/4- Relaciones Laborales y Orientacion Profesional  - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Estetica/Maquillador-aProfesional/4- Relaciones Laborales y Orientacion Profesional  - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -213,7 +213,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/estetica/Maquillador-a Profesional/5- Maquillaje en Moda Fotografia Produccion Audiovisual - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Estetica/Maquillador-aProfesional/5- Maquillaje en Moda Fotografia Produccion Audiovisual - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -243,7 +243,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/estetica/Maquillador-a Profesional/6- Gestion del Proceso de trabajo - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Estetica/Maquillador-aProfesional/6- Gestion del Proceso de trabajo - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -261,7 +261,7 @@
 
        <!-- GALERIA IMAGEN -->
 
-       <div>
+    <!--    <div>
            <div class="ful-img" id="fulImgBox" onclick="closeImg()">
                 <img   src="" id="fulImg" alt="">
                 <span onclick="closeImg()">X</span>
@@ -360,7 +360,7 @@
             </div>
 
 
-       </div>
+       </div> -->
 
 
 

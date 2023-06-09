@@ -43,7 +43,7 @@
 
                     <p>HABILITA A CURSAR DISEÑADOR DE PAGINAS WEB II.</p>
 
-                        <a  class="btn btn-brand"  href="/data/Informatica/DiseniodePaginasWeb/Diseñador de Páginas WEB I - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Informatica/DisenodePaginasWeb/Disenador de Paginas WEB I - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
 
 
 
-                        <a  class="btn btn-brand"  href="/data/Informatica/DiseniodePaginasWeb/Diseñador de Páginas WEB II - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Informatica/DisenodePaginasWeb/Disenador de Paginas WEB II - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@
 
        <!-- GALERIA IMAGEN -->
 
-       <div>
+   <!--     <div>
            <div class="ful-img" id="fulImgBox" onclick="closeImg()">
                 <img  src="" id="fulImg" alt=" ">
                 <span onclick="closeImg()">X</span>
@@ -113,7 +113,7 @@
 
 
        </div>
-
+ -->
 
 
 

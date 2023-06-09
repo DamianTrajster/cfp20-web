@@ -10,10 +10,7 @@
 
         <div class="curso-flex">
 
-                    <a  href="/cursos/tecnicasdrenajelinfatico.php" class="box">
-                        <i class='bx bxs-caret-down-circle'></i> 
-                        <p>Técnicas de Drenaje Linfático Manual</p>
-                    </a>
+                  
               
                   <a href="/cursos/esteticacorp.php" class="box">
                         <i class='bx bxs-caret-down-circle'></i>

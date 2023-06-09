@@ -14,7 +14,7 @@ cfp20.forEach((item)=> {
     
      
     imagen.innerHTML  = `
-                <source srcset="${item.webp}" type="image/webp" onclick="openFulImg(this.src)" >
+                
                 <img loading="lazy" width="200" height="300" src="${item.jpg}" alt="imagen galeria" onclick="openFulImg(this.src)" >
 
      
@@ -46,7 +46,7 @@ cursos.forEach((item)=> {
                 <source srcset="${item.webp}" type="image/webp" onclick="openFulImg(this.src)" >
                 <img loading="lazy" width="200" height="300" src="${item.jpg}" alt="imagen galeria" onclick="openFulImg(this.src)" >
                 <div class="content_title">
-                        <h6>${item.curso}</h6>
+                  <h6>${item.curso}</h6>
                 </div>
      
          

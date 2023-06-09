@@ -86,8 +86,8 @@
                         
                         <ul class="dropdown-menu">
                             <li  ><a class="dropdown-item text-uppercase" href="/pages/nuestrahistoria.php">Nuestra Historia</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li ><a class="dropdown-item text-uppercase" href="/pages/nuestrostaff.php">Nuestro Staff</a></li>
+                            
+                           <!--  <li ><a class="dropdown-item text-uppercase" href="/pages/nuestrostaff.php">Nuestro Staff</a></li> -->
                             <li><hr class="dropdown-divider"></li>
                             <li ><a class="dropdown-item text-uppercase" href="/pages/galeria.php">Galeria Imagenes</a></li>
                         </ul>

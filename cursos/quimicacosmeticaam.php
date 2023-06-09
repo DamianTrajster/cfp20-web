@@ -61,7 +61,7 @@
 
                
 
-                    <a download  class="btn btn-brand"  href="/data/estetica/Química Cosmética/QUÍMICA COSMÉTICA.docx" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                    <a download  class="btn btn-brand"  href="/data/AMdelCo/Estetica/QuimicaCosmetica/quimicacosmetica.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>

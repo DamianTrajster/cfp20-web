@@ -10,7 +10,7 @@
 
         <div class="curso-flex">
 
-                    <a href="#"  type="button" class="box" Data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    <a download href="#"  type="button" class="box" Data-bs-toggle="modal" data-bs-target="#exampleModal1">
                         <p>Masajes corporales con elementos</p>
                     </a>
 
@@ -44,7 +44,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/Corporal/Masajes corporales con elementos" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/AMdelCo/Corporal/Masajescorporalesconelementos/Masajes con elementos.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>

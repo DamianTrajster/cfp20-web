@@ -71,7 +71,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/estetica/Peluquero-a Profesional/1- PEINADO - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Estetica/Peluquero-aProfesional/1- Peinado - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -99,7 +99,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/estetica/Peluquero-a Profesional/2- Piles y Anexos Cutáneos - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Estetica/Peluquero-aProfesional/2- Piel y anexos cutaneos - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/estetica/Peluquero-a Profesional/3- Relaciones Laborales y Orientacion Profesional  - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Estetica/Peluquero-aProfesional/3- Relaciones laborales y orientacion profesional  - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -158,7 +158,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/estetica/Peluquero-a Profesional/4- CORTE - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Estetica/Peluquero-aProfesional/4- Corte - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -188,7 +188,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/estetica/Peluquero-a Profesional/5- Gestion del Proceso de trabajo - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Estetica/Peluquero-aProfesional/5- Gestion del proceso de trabajo - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -218,7 +218,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/estetica/Peluquero-a Profesional/6- COLORACION Y CAMBIO DE ESTRUCTURA DEL CABELLO - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Estetica/Peluquero-aProfesional/6- Coloracion y cambio de estructura del cabello - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -238,7 +238,7 @@
 
        <!-- GALERIA IMAGEN -->
 
-       <div>
+    <!--    <div>
            <div class="ful-img" id="fulImgBox" onclick="closeImg()">
                 <img   src="" id="fulImg" alt="">
                 <span onclick="closeImg()">X</span>
@@ -302,7 +302,7 @@
             </div>
 
 
-       </div>
+       </div> -->
 
 
 

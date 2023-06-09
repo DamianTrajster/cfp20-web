@@ -45,7 +45,7 @@
 
                   
 
-                        <a  class="btn btn-brand"  href="/data/Corporal/Coordinación de Prácticas Corporales/Orientación YOGA/ORIENTACION EN YOGA I - CFP20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download   class="btn btn-brand"  href="/data/AMdelCo/Corporal/CoordinaciondePracticasCorporales/Yoga/Yoga I.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
 
 
 
-                        <a  class="btn btn-brand"  href="/data/Corporal/Coordinación de Prácticas Corporales/Orientación YOGA/ORIENTACION EN YOGA II -CFP20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/AMdelCo/Corporal/CoordinaciondePracticasCorporales/Yoga/Yoga II.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -98,7 +98,7 @@
 
 
 
-                        <a  class="btn btn-brand"  href="/data/Corporal/Coordinación de Prácticas Corporales/Orientación YOGA/ORIENTACION EN YOGA III -AMdelCo.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download   class="btn btn-brand"  href="/data/AMdelCo/Corporal/CoordinaciondePracticasCorporales/Yoga/Yoga III.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -110,7 +110,7 @@
 
        <!-- GALERIA IMAGEN -->
 
-       <div>
+    <!--    <div>
            <div class="ful-img" id="fulImgBox" onclick="closeImg()">
                 <img  src="" id="fulImg" alt=" ">
                 <span onclick="closeImg()">X</span>
@@ -156,7 +156,7 @@
 
 
        </div>
-
+ -->
 
 
 

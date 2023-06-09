@@ -21,7 +21,7 @@
 
        </section>
 
-       <!-- Paginas web 1 Modal  -->
+       <!-- marketing  Modal  -->
        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg  ">
                 <div class="modal-content  ">
@@ -49,7 +49,7 @@
 
                
 
-                        <a  class="btn btn-brand"  href="/data/Informatica/MarketingDigital/MARKETING DIGITAL - CFP 20.doc" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
+                        <a download  class="btn btn-brand"  href="/data/cfp20/Informatica/MarketingDigital/Marketing digital - CFP 20.pdf" target="_blank"> <i class="fa-regular fa-file-pdf"></i> Descargar Programa</a>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
 
        <!-- GALERIA IMAGEN -->
 
-       <div>
+   <!--     <div>
            <div class="ful-img" id="fulImgBox" onclick="closeImg()">
                 <img   src="" id="fulImg" alt="">
                 <span onclick="closeImg()">X</span>
@@ -96,7 +96,7 @@
             </div>
 
 
-       </div>
+       </div> -->
 
 
 
